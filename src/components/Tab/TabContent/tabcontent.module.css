@@ -1,0 +1,59 @@
+.content>h1,
+.content>p {
+
+    font-weight: 600;
+    color: var(--milk-color);
+}
+
+.content>h1 {
+    padding-top: 90px;
+    font-size: 42px;
+}
+
+.content>p {
+    font-family: var(--font--poppins);
+    font-size: 16px;
+    margin: 4px 0 30px;
+}
+.swiperCard{
+    width: 95%;
+    margin: 0 auto;
+}
+.swiper {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 305px;
+
+}
+
+.tab {
+    display: flex;
+    margin-bottom: 200px;
+    justify-content: space-between;
+}
+
+
+.btn {
+    color: var(--carosel-bg);
+
+    transition: 1s ease-in-out;
+    background-color: var(--header-btn-color);
+}
+
+.none {
+    background-color: transparent;
+    color: var(--milk-color);
+    font-size: 13px;
+    transition: 1s ease-in-out;
+    border: 0.3px solid var(--header-btn-color);
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .tab {
+        flex-wrap: wrap;
+        row-gap: 10px;
+    }
+}
